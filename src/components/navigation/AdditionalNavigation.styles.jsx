@@ -6,7 +6,7 @@ export const Nav = styled.nav`
     border-bottom: solid 2px #F4F4F4;
     align-items: flex-end;
     padding: .2rem 0;
-    padding-left: 10rem;
+    padding-left: 16.8rem;
     gap: 2rem;
     justify-self: center;
 `
@@ -15,7 +15,7 @@ export const Ul = styled.ul`
     display: flex;
     list-style: none;
     gap: 1rem;
-    font-size: .7rem;
+    font-size: .8rem;
     font-weight: 300;
     margin: 0;
     height: fit-content;

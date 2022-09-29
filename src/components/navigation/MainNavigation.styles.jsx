@@ -21,7 +21,7 @@ export const Ul = styled.ul`
 export const Li = styled.li`
     text-transform: uppercase;
     font-weight: 400;
-    font-size: .8rem;
+    font-size: 1rem;
     padding-bottom: .1rem;
     border-bottom: 3px solid transparent;
 
@@ -35,7 +35,7 @@ export const Button = styled.button`
     border: none;
     text-transform: uppercase;
     padding: .5rem 1.4rem;
-    font-size: .6rem;
+    font-size: .9rem;
     color: white;
     background-color: ${redColor};
 
