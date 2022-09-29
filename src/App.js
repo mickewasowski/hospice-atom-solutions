@@ -1,8 +1,8 @@
+import AdditonalNavigation from './components/navigation/AdditionalNavigation';
 
 function App() {
   return (
-    <div>
-    </div>
+    <AdditonalNavigation />
   );
 }
 
