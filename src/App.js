@@ -1,8 +1,8 @@
-import AdditonalNavigation from './components/navigation/AdditionalNavigation';
+import Landing from './pages/Landing';
 
 function App() {
   return (
-    <AdditonalNavigation />
+    <Landing />
   );
 }
 
