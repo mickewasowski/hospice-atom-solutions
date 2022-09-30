@@ -7,9 +7,9 @@ function Main(){
     return(
         <main>
             <Hero />
-            <CardWrapper />
-            <Contacts />
-            <Feedback />
+            {/* <CardWrapper /> */}
+            {/* <Contacts /> */}
+            {/* <Feedback /> */}
         </main>
     )
 }

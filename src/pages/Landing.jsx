@@ -7,8 +7,8 @@ function Landing(){
     return(
         <>
             <Header />
-            {/* <Main />
-            <Footer /> */}
+            <Main />
+            {/* <Footer /> */}
         </>
     )
 }
