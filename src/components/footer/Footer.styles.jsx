@@ -1,4 +1,8 @@
 import styled from "styled-components";
+import {BsFacebook} from 'react-icons/bs';
+import {AiFillTwitterCircle, AiOutlinePhone, AiOutlineMail} from 'react-icons/ai';
+import {HiOutlineLocationMarker} from 'react-icons/hi';
+import {FaCcVisa, FaCcMastercard, FaCcPaypal} from 'react-icons/fa';
 
 const redColor = "#BF1522";
 
@@ -25,6 +29,45 @@ export const Info = styled.article`
     width: 25%;
     justify-content: space-between;
     height: 100%;
+`
+
+export const InfoLogo = styled.img`
+    width: 5rem;
+    margin-bottom: 1rem;
+`
+
+export const InfoIcons = styled.section`
+    width: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+`
+
+export const Facebook = styled(BsFacebook)`
+    color: #39559E;
+    transform: scale(1.5);
+
+    &:hover{
+        cursor: pointer;
+    }
+`
+
+export const Twitter = styled(AiFillTwitterCircle)`
+    color: #50ABF0;
+    transform: scale(1.8);
+
+    &:hover{
+        cursor: pointer;
+    }
+`
+
+export const InfoLogoSmall = styled.img`
+    width: 3rem;
+    height: 2rem;
+
+    &:hover{
+        cursor: pointer;
+    }
 `
 
 export const Parag = styled.p`
@@ -76,6 +119,64 @@ export const ContH3 = styled.h3`
 export const TextWrapper = styled.p`
     margin-top: 1rem;
     display: flex;
+`
+
+export const Location = styled(HiOutlineLocationMarker)`
+    margin-right: .4rem;
+    color: ${redColor};
+`
+
+export const Phone = styled(AiOutlinePhone)`
+    margin-right: .4rem;
+    color: ${redColor};
+`
+
+export const Email = styled(AiOutlineMail)`
+    margin-right: .4rem;
+    color: ${redColor};
+`
+
+export const TextParag = styled.p`
+    font-size: 1rem;
+    font-weight: 300;
+`
+
+export const CardsP = styled.p`
+    font-weight: 300;
+    font-size: .8rem;
+    margin-bottom: .8rem;
+`
+
+export const CardsWrapper = styled.div`
+    display: flex;
+    gap: 1rem;
+`
+
+export const Visa = styled(FaCcVisa)`
+    transform: scale(1.3);
+    color: #0C5B9E;
+
+    &:hover{
+        cursor: pointer;
+    }
+`
+
+export const MasterCard = styled(FaCcMastercard)`
+    transform: scale(1.3);
+    color: #F58B2E;
+
+    &:hover{
+        cursor: pointer;
+    }
+`
+
+export const PayPal = styled(FaCcPaypal)`
+    transform: scale(1.3);
+    color: #2B84AC;
+
+    &:hover{
+        cursor: pointer;
+    }
 `
 
 export const P = styled.p`
