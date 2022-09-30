@@ -8,8 +8,17 @@ export const Nav = styled.nav`
     justify-content: space-between;
     height: 4rem;
     align-items: center;
-    width: 72%;
-    margin: auto;
+
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+
+    ${'' /* &:before{
+        content: "";
+        width: 100vw;
+        background-color: black;
+        height: 1px;
+    } */}
 `
 
 export const Ul = styled.ul`

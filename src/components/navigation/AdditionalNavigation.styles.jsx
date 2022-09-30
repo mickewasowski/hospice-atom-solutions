@@ -2,13 +2,12 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
     display: flex;
-    padding: 0 1rem;
-    border-bottom: solid 2px #F4F4F4;
     align-items: flex-end;
-    padding: .2rem 0;
-    padding-left: 16.8rem;
     gap: 2rem;
-    justify-self: center;
+    padding-bottom: .3rem;
+
+    grid-column-start: 2;
+    grid-column-end: 5;
 `
 
 export const Ul = styled.ul`
