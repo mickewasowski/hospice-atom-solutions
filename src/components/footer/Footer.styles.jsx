@@ -106,7 +106,7 @@ export const Links = styled.article`
 
     @media (min-width: 320px) AND (max-width: 1023px) {
         width: 90%;
-        align-items: center;
+        align-items: flex-start;
     }
 `
 
@@ -117,6 +117,7 @@ export const H3 = styled.h2`
 
     @media (min-width: 320px) AND (max-width: 1023px) {
         margin-bottom: 1rem;
+        align-self: center;
     }
 `
 
