@@ -9,7 +9,7 @@ function Main(){
             <Hero />
             <CardWrapper />
             <Contacts />
-            {/* <Feedback /> */}
+            <Feedback />
         </main>
     )
 }

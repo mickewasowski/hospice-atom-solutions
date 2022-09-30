@@ -32,6 +32,10 @@ export const Right = styled(BsChevronRight)`
 export const H3 = styled.h3`
     text-transform: uppercase;
     margin-bottom: 2rem;
+
+    @media (min-width: 320px) AND (max-width: 1023px) {
+        text-align: center;
+    }
 `
 
 export const P = styled.p`
@@ -64,4 +68,8 @@ export const Role = styled.p`
     text-transform: uppercase;
     font-weight: 300;
     font-size: .8rem;
+
+    @media (min-width: 320px) AND (max-width: 1023px) {
+        text-align: center;
+    }
 `
