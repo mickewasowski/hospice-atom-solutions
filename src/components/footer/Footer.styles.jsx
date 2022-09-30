@@ -12,6 +12,10 @@ export const Footer = styled.footer`
     justify-content: space-between;
     align-items: center;
     height: 50vh;
+
+    @media (min-width: 320px) AND (max-width: 1023px) {
+        height: auto;
+    }
 `
 
 export const Section = styled.section`
@@ -21,6 +25,12 @@ export const Section = styled.section`
     align-items: center;
     padding: 2rem 0;
     height: 75%;
+
+    @media (min-width: 320px) AND (max-width: 1023px) {
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+    }
 `
 
 export const Info = styled.article`
@@ -29,6 +39,13 @@ export const Info = styled.article`
     width: 25%;
     justify-content: space-between;
     height: 100%;
+
+    @media (min-width: 320px) AND (max-width: 1023px) {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
 `
 
 export const InfoLogo = styled.img`
@@ -82,12 +99,21 @@ export const Links = styled.article`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @media (min-width: 320px) AND (max-width: 1023px) {
+        width: 90%;
+        align-items: center;
+    }
 `
 
 export const H3 = styled.h2`
     color: ${redColor};
     text-transform: uppercase;
     font-size: 1rem;
+
+    @media (min-width: 320px) AND (max-width: 1023px) {
+        margin-bottom: 1rem;
+    }
 `
 
 export const H4 = styled.h4`
@@ -108,12 +134,22 @@ export const Contacts = styled.article`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @media (min-width: 320px) AND (max-width: 1023px) {
+        width: 90%;
+        align-items: center;
+        gap: 1rem;
+    }
 `
 
 export const ContH3 = styled.h3`
     color: ${redColor};
     text-transform: uppercase;
     font-size: 1rem;
+
+    @media (min-width: 320px) AND (max-width: 1023px) {
+        margin-bottom: 1rem;
+    }
 `
 
 export const TextWrapper = styled.p`
@@ -139,6 +175,12 @@ export const Email = styled(AiOutlineMail)`
 export const TextParag = styled.p`
     font-size: 1rem;
     font-weight: 300;
+`
+
+export const PaymentInfo = styled.div`
+    @media (min-width: 320px) AND (max-width: 1023px) {
+        align-self: flex-start;
+    }
 `
 
 export const CardsP = styled.p`

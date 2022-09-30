@@ -1,4 +1,4 @@
-import {Footer as Wrapper,Section, Info,InfoLogo,Parag,InfoIcons,Facebook,Twitter,InfoLogoSmall, Links,H3,H4,Text, Contacts, ContH3,TextWrapper, Location, Phone,Email,TextParag,CardsP,CardsWrapper,Visa,MasterCard,PayPal, P} from './Footer.styles';
+import {Footer as Wrapper,Section, Info,InfoLogo,Parag,InfoIcons,Facebook,Twitter,InfoLogoSmall, Links,H3,H4,Text, Contacts, ContH3,TextWrapper, Location, Phone,Email,TextParag,PaymentInfo,CardsP,CardsWrapper,Visa,MasterCard,PayPal, P} from './Footer.styles';
 import logo from '../../assets/logo.png';
 
 function Footer(){
@@ -60,14 +60,14 @@ function Footer(){
                             </TextParag>
                         </TextWrapper>
                     </div>
-                    <div>
+                    <PaymentInfo>
                         <CardsP>Vi modtager folgende kort:</CardsP>
                         <CardsWrapper>
                             <Visa />
                             <MasterCard />
                             <PayPal />
                         </CardsWrapper>
-                    </div>
+                    </PaymentInfo>
                 </Contacts>
             </Section>
             <P>Copyright &#169; 2019 All Right Reserved.</P>
