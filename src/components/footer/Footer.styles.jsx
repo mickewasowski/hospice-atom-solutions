@@ -31,6 +31,10 @@ export const Section = styled.section`
         height: auto;
         gap: 2rem;
     }
+
+    @media (min-width: 1024px) AND (max-width: 1440px){
+        height: auto;
+    }
 `
 
 export const Info = styled.article`
