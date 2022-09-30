@@ -1,5 +1,5 @@
 import person from '../../../assets/sergio.jpg';
-import {Section, H3, P, Article, Left, Right, UserInfo, Role} from './Feedback.styles'
+import {Section, H3, P, Article, Left, Right, UserInfo,ProfilePicture, Role} from './Feedback.styles'
 
 function Feedback(){
 
@@ -10,7 +10,7 @@ function Feedback(){
             <Article>
                 <Left />
                 <UserInfo>
-                    <img src={person} alt="portrait" style={{width: "5rem", borderRadius: "50%", height: "4rem"}}/>
+                    <ProfilePicture src={person} alt="portrait" />
                     <h5 style={{marginTop: ".5rem"}}>Karen Nielsem</h5>
                     <Role>Phasellus suwcipit vaius</Role>
                 </UserInfo>

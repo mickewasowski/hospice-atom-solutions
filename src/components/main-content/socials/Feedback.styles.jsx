@@ -54,6 +54,12 @@ export const UserInfo = styled.section`
     align-items: center;
 `
 
+export const ProfilePicture = styled.img`
+    width: 5rem;
+    border-radius: 50%;
+    height: 5rem;
+`
+
 export const Role = styled.p`
     text-transform: uppercase;
     font-weight: 300;
