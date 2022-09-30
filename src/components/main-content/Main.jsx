@@ -7,7 +7,7 @@ function Main(){
     return(
         <main>
             <Hero />
-            {/* <CardWrapper /> */}
+            <CardWrapper />
             {/* <Contacts /> */}
             {/* <Feedback /> */}
         </main>

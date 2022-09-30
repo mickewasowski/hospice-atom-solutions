@@ -40,4 +40,9 @@ export const CardsSection = styled.section`
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    @media (min-width: 320px) AND (max-width: 1023px) {
+        display: flex;
+        flex-direction: column;
+    }
 `
