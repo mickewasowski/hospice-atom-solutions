@@ -24,6 +24,12 @@ export const Article = styled.article`
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    @media (min-width: 320px) AND (max-width: 1023px) {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+    }
 `
 
 export const Wrapper = styled.section`

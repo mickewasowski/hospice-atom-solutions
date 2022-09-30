@@ -8,7 +8,7 @@ function Main(){
         <main>
             <Hero />
             <CardWrapper />
-            {/* <Contacts /> */}
+            <Contacts />
             {/* <Feedback /> */}
         </main>
     )
