@@ -1,13 +1,24 @@
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-    display: flex;
+    ${'' /* display: flex; */}
     align-items: flex-end;
     gap: 2rem;
     padding-bottom: .3rem;
 
     grid-column-start: 2;
     grid-column-end: 5;
+
+    @media (min-width: 320px) AND (max-width: 1023px) {
+        ${'' /* display: flex; */}
+        flex-direction: column;
+        width: 70vw;
+        height: 50vh;
+        align-items: center;
+        z-index: 2;
+        background-color: white;
+        padding-top: 2rem;
+    }
 `
 
 export const Ul = styled.ul`
@@ -18,6 +29,10 @@ export const Ul = styled.ul`
     font-weight: 300;
     margin: 0;
     height: fit-content;
+
+    @media (min-width: 320px) AND (max-width: 1023px) {
+        flex-direction: column;
+    }
 `
 
 export const Li = styled.li`

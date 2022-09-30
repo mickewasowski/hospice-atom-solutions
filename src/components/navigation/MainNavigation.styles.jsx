@@ -4,7 +4,7 @@ const redColor = "#9A121C";
 const btnHoverColor = "#BF1522";
 
 export const Nav = styled.nav`
-    display: flex;
+    ${'' /* display: flex; */}
     justify-content: space-between;
     height: 4rem;
     align-items: center;
@@ -13,18 +13,27 @@ export const Nav = styled.nav`
     grid-column-end: 5;
     grid-row-start: 3;
 
-    ${'' /* &:before{
-        content: "";
-        width: 100vw;
-        background-color: black;
-        height: 1px;
-    } */}
+    @media (min-width: 320px) AND (max-width: 1023px) {
+        ${'' /* display: flex; */}
+        flex-direction: column;
+        width: 70vw;
+        height: 50vh;
+        align-items: center;
+        z-index: 2;
+        background-color: white;
+        justify-content: space-around;
+    }
 `
 
 export const Ul = styled.ul`
     display: flex;
     list-style: none;
     gap: 1rem;
+
+    @media (min-width: 320px) AND (max-width: 1023px) {
+        flex-direction: column;
+        align-items: center;
+    }
 `
 
 export const Li = styled.li`
